@@ -1,0 +1,29 @@
+.chart {
+  margin: 0;
+  padding: 0;
+}
+
+.chart svg text {
+  pointer-events: none;
+}
+
+.tick text {
+  font-family: 'Lato';
+  font-size: 9px;
+  fill: #aaa;
+}
+
+.x-axis .domain,
+.y-axis .domain,
+.x-axis .tick line,
+.y-axis .tick line {
+  visibility: hidden;
+}
+
+.x-axis:hover {
+  cursor: ew-resize;
+}
+
+.y-axis:hover {
+  cursor: ns-resize;
+}
